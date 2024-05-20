@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+##### 自己模块需要什么包以及对应的版本，都写在对应的模块标识下
+
+##### 项目基本包
+black # 格式化工具
+jupyter # 命令行调用jupyter
+
+##### preprocess
+
+
+##### pflow_api
+
+
+##### mysql_op
+
+
+##### result

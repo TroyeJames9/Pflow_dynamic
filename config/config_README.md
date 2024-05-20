@@ -1,0 +1,3 @@
+本目录存放配置敏感信息的ini文件，请在此处新建config.ini文件，然后将敏感信息  
+配置到文件中
+配置格式例子见config_example.ini
