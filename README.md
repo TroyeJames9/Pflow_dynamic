@@ -92,9 +92,9 @@ filetree
 1. 每当在本项目的虚拟环境执行pip install命令时，一旦确定安装的包是本项目所需要的包，需要及时将该包记录在项目根目录的requirements.txt
 2. 规范例子  
 - 项目需要新的包black，执行pip install的时候要记住这个包的版本号  
-![image](https://github.com/TroyeJames9/Pflow_dynamic/blob/main/IMG/requrie_1.jpg)
+![image](https://github.com/TroyeJames9/Pflow_dynamic/blob/main/IMG/require_1.jpg)
 - 然后将这个包记录到requirements中，如下  
-![image](https://github.com/TroyeJames9/Pflow_dynamic/blob/main/IMG/requrie_2.jpg)
+![image](https://github.com/TroyeJames9/Pflow_dynamic/blob/main/IMG/require_2.jpg)
 - 
 ###### 代码编写规范
 1. [注释和文档字符串](https://mubu.com/doc/4v3SAhMn7es#o-9LDwq4Ni1S)
