@@ -101,11 +101,15 @@ filetree
 1. [注释和文档字符串](https://mubu.com/doc/4v3SAhMn7es#o-9LDwq4Ni1S)
 2. [代码自动格式化程序black](https://mubu.com/doc/4v3SAhMn7es#o-oIpzb5N96T)
 
-###### 工作内容提交规范
-提交内容内容包括
+###### 工作内容PR规范
+1. PR内容包括 
 - 自己所负责的模块 py文件
 - py文件所需求的新的文件夹或文件，但不能包含敏感信息
 - 更新了的requirements.txt
+
+2. PR频次要求：完成1个函数就要PR一次
+
+
 
 ### 开发注意事项
 1. 敏感信息相关：所有敏感的账号信息、数据库配置信息，均需在本地的config文件夹创建config.ini进行存储，然后使用configparser库在脚本读取敏感信息。
