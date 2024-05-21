@@ -59,7 +59,7 @@
 2. **视频处理工具：** 该项目需要底层工具ffmpeg，windows系统请参照[本教程](https://phoenixnap.com/kb/ffmpeg-windows)下载，MAC系统请参照[本教程](https://phoenixnap.com/kb/ffmpeg-mac)下载
 3. **包依赖关系：** 您可以在requirements.txt 文件中找到所需包的列表。 在终端位于项目根目录运行`pip install -r requirements.txt`。在安装包之前，务必完成ffmpeg的安装与配置。
 4. **开发环境：** 使用您首选的代码编辑器或 IDE 设置您的开发环境。 但是，该项目中的某些导入依赖于 PyCharm 中的“源根”设置。 建议使用 PyCharm 以获得最佳功能。在 PyCharm 中，需要将 `Pflow_dynamic/script` 设置为源根目录，以确保脚本正确运行。
-5. **数据集：** 由于本项目使用的视频数据集的敏感性，无法公开披露,故提供`video/exp`中的样本。
+5. **数据集：** 由于本项目使用的视频数据集的敏感性，无法公开披露,故提供`video/exp`的视频下载链接提供一个示例视频。
 
 ###### **用法**
 
@@ -69,6 +69,7 @@
 
 ```
 filetree 
+├── config/ # 存放含有敏感信息的ini文件或者其他配置文件
 ├── video/
 │  ├── /{dataset_name}/
 │  │  ├── example.mp4 # 校园视频数据集文件命名规范为：YYYYMMDD_<noon/night>_bridge，其他数据集自定
